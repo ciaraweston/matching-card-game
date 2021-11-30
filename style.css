@@ -1,0 +1,55 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/* <iframe width="560" height="315" src="https://www.youtube.com/embed/WK_yQD_s8f8?start=119" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */
+
+body {
+  color: black;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+  /* LAYOUT
+  /*******************************************/
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  background-color: black;
+}
+
+body {
+  background-color: rgb(3, 36, 71);
+}
+
+table {
+  margin-top: 1%;
+}
+
+img {
+  height: 20em;
+  width: 20em;
+  margin-left: 35%;
+}
+
+button {
+  margin-left: 43%;
+  height: 50px;
+  width: 200px;
+  background-color: black;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
