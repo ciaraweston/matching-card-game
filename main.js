@@ -60,7 +60,7 @@ function checkForMatch(click) {
   }
   if (count === 5) {
     setTimeout(() => {
-      alert('WAKANDA FOREVER!')
+      alert('WAKANDA FOREVER! You won')
     }, 310)
   }
 }
