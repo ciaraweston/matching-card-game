@@ -11,31 +11,34 @@
 
 <body>
   <section class="mainContainer">
-    <video autoplay loop muted src="Shimmering_Particles.mov" id="video"></video>
+    <video autoplay loop muted src="/blackpanthervideo.mp4" id="video"></video>
+
+    <h1>Black Panther: Matching Card Game</h1>
+
+    <!--Game Board-->
+    <div id="container">
+      <table class="table">
+        <tr>
+          <td><img src="images/blackpanthercover.png" class="Card A" data-value="" id="0"></td>
+          <td><img src="images/blackpanthercover.png" class="Card B" id="1"></td>
+          <td><img src="images/blackpanthercover.png" class="Card C" id="2"></td>
+          <td><img src="images/blackpanthercover.png" class="Card D" id="3"></td>
+          <td><img src="images/blackpanthercover.png" class="Card E" id="4"></td>
+        </tr>
+        <tr>
+          <td><img src="images/blackpanthercover.png" class="Card A" id="5"></td>
+          <td><img src="images/blackpanthercover.png" class="Card B" id="6"></td>
+          <td><img src="images/blackpanthercover.png" class="Card C" id="7"></td>
+          <td><img src="images/blackpanthercover.png" class="Card D" id="8"></td>
+          <td><img src="images/blackpanthercover.png" class="Card E" id="9"></td>
+        </tr>
+      </table>
+    </div>
   </section>
-  <h1>Black Panther: Matching Card Game</h1>
-
-  <!--Game Board-->
-  <div id="container">
-    <table class="table">
-      <tr>
-        <td><img src="images/blackpanthercover.png" class="Card A" data-value="" id="0"></td>
-        <td><img src="images/blackpanthercover.png" class="Card B" id="1"></td>
-        <td><img src="images/blackpanthercover.png" class="Card C" id="2"></td>
-        <td><img src="images/blackpanthercover.png" class="Card D" id="3"></td>
-        <td><img src="images/blackpanthercover.png" class="Card E" id="4"></td>
-      </tr>
-      <tr>
-        <td><img src="images/blackpanthercover.png" class="Card A" id="5"></td>
-        <td><img src="images/blackpanthercover.png" class="Card B" id="6"></td>
-        <td><img src="images/blackpanthercover.png" class="Card C" id="7"></td>
-        <td><img src="images/blackpanthercover.png" class="Card D" id="8"></td>
-        <td><img src="images/blackpanthercover.png" class="Card E" id="9"></td>
-      </tr>
-    </table>
+  <br><br><br><br><br>
+  <div class="button">
+    <button id="reset">Reset Game</button>
   </div>
-
-  <button id="reset">Reset Game</button>
 </body>
 <script src="main.js"></script>
 
