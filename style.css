@@ -1,55 +1,95 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
-/* <iframe width="560" height="315" src="https://www.youtube.com/embed/WK_yQD_s8f8?start=119" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  color: black;
   font-size: 12px;
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
+  background: #000;
 }
 
-* {
-  box-sizing: border-box;
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
   clear: both;
 }
 
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px;
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0;
+}
+
 /******************************************
   /* LAYOUT
   /*******************************************/
 
+video {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: -10;
+}
+
 h1 {
+  background: #000;
+  color: #fff;
+  font-size: 2.5em;
   text-align: center;
-  font-size: 50px;
-  color: white;
-  background-color: black;
 }
-
-body {
-  background-color: rgb(3, 36, 71);
+h2 {
+  color: #fff;
+  font-size: 7em;
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom: -5px;
 }
-
-table {
-  margin-top: 1%;
+.table {
+  margin: auto;
+  margin-top: 7%;
 }
-
-img {
-  height: 20em;
-  width: 20em;
-  margin-left: 35%;
-}
-
-button {
-  margin-left: 43%;
-  height: 50px;
-  width: 200px;
-  background-color: black;
+td {
   border: none;
-  font-size: 20px;
-  color: white;
+  margin: auto;
+  height: 2%;
+  width: 2%;
+}
+img {
+  height: 250px;
+  width: 100%;
+  padding: 0;
+  border: 0;
+}
+.button {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+button {
+  text-align: center;
+  font-size: 1.5em;
+  height: 2em;
+  width: 15em;
+  color: #fff;
+  background: #004;
+  border-radius: 2em;
+  border-color: #004;
+  margin-bottom: 1em;
 }
